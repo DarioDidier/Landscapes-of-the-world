@@ -106,7 +106,7 @@ p {
   h2 {
     font-size: 1em;
   }
-  div .text p {
+  .text p {
     font-size: 0.8em;
   }   
    /* Organizacion en pantalla*/ 
