@@ -6,6 +6,7 @@ body {
   background: #000;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 h1 {
   text-align: center;
@@ -99,16 +100,7 @@ p {
 
 @media screen and (max-width: 425px) {
   .container {
-    /* Font size */
-  h1 {
-    font-size: 1.2em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-  .text p {
-    font-size: 0.8em;
-  }   
+   
    /* Organizacion en pantalla*/ 
     grid-template-columns: repeat(2, 1fr);
   }
@@ -125,6 +117,17 @@ p {
 
 /* Dimensiones: Tablet*/
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  /* Font size */
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  /*Organizacion en pantalla*/
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
