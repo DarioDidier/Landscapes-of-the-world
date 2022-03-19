@@ -106,6 +106,17 @@ p {
 
 @media screen and (max-width: 425px) {
   .container {
+    /* Font size */
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  div .text p {
+    font-size: 0.8em;
+  }   
+   /* Organizacion en pantalla*/ 
     grid-template-columns: repeat(2, 1fr);
   }
   .item:nth-child(3) {
