@@ -11,7 +11,8 @@ body {
 h1 {
   text-align: center;
   color: #fff;
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
+  font-size: 1.8rem;
 }
 h2 {
   text-align: left;
@@ -98,10 +99,20 @@ p {
 
 /* Dimensiones: Movil-L*/
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .container {
-   
-   /* Organizacion en pantalla*/ 
+  /* Font size */
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  /* Organizacion de pantalla*/ 
+  
     grid-template-columns: repeat(2, 1fr);
   }
   .item:nth-child(3) {
@@ -119,13 +130,13 @@ p {
 @media screen and (min-width: 426px) and (max-width: 768px) {
   /* Font size */
   h1 {
-    font-size: 1.2em;
+    font-size: 1.6rem;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.2rem;
   }
   p {
-    font-size: 0.8em;
+    font-size: 1rem;
   }
   /*Organizacion en pantalla*/
   .container {
