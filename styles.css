@@ -149,6 +149,16 @@ p {
 }
 /* Dimensiones: Portatil*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+   /* Font size */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
   .container {
     grid-template-columns: repeat(4, 1fr);
   }
