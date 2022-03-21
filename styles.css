@@ -105,13 +105,13 @@ p {
   .container {
   /* Font size */
   h1 {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   p {
-    font-size: 0.8rem;
+    font-size: 0.625rem;
   }
   /* Organizacion de pantalla*/ 
   
@@ -132,13 +132,13 @@ p {
 @media screen and (min-width: 426px) and (max-width: 768px) {
   /* Font size */
   h1 {
-    font-size: 0.75rem;
+    font-size: 1.6rem;
   }
   h2 {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
   p {
-    font-size: 0.625rem;
+    font-size: 1rem;
   }
   /*Organizacion en pantalla*/
   .container {
